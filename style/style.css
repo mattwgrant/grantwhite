@@ -144,9 +144,26 @@ nav a.selected:hover {
   ABOUT
 ******************/
 
+
+.pics {
+  margin: 15px;
+  background-color: #B1A99B;
+  color: black;
+  box-shadow: 5px 5px 5px black;
+  width: 45%;
+  display: inline-block;
+
+}
 .pics img {
   width: 200px;
   height: 200px;
+  padding: 20px;
+  margin-left: 28%;
+}
+
+.pics p {
+ /* padding-left: 20px;*/
+  text-align: center;
 }
 
 
@@ -187,6 +204,30 @@ form input {
 
 #message {
   display: hidden;
+}
+
+#formPop {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+
+.modal-content {
+  margin: 15% auto;
+}
+
+.modal-content img {
+  width: 200px;
+  height: 200px;
+
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 /******************

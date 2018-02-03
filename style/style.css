@@ -118,8 +118,8 @@ nav a.selected:hover {
 ******************/
 
 #home-page-left {
-  float: left;
-  margin: 0 1.5%;
+  /*float: left;*/
+  margin: auto;
   width: 45%;
   background-color: #B1A99B;
   color: black;
@@ -129,8 +129,8 @@ nav a.selected:hover {
 }
 
 #home-page-right {
-  float: right;
-  margin: 0 1.5%;
+  /*float: right;*/
+  margin: auto;
   width: 45%;
   background-color: black;
   color: #B1A99B;
